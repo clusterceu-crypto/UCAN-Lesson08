@@ -28,3 +28,8 @@
 @media(max-width:600px){.header-context{width:100%}.lesson-title{font-size:clamp(1rem,4.5vw,1.22rem)}.transition-bridge{margin-top:1.4rem}.ai-actions{flex-direction:column}.ai-actions .button{width:100%}}
 
 /* Lesson 08 v1.1.1 final user review completion microfix */
+
+/* UCAN-L08 Socratic support: distinct thematic card within the existing lesson palette */
+.socratic-support{margin:24px 0 28px;border:1px solid var(--grey-200);border-left:5px solid var(--green);background:var(--green-soft);border-radius:var(--radius);padding:clamp(20px,3vw,26px);box-shadow:none;max-width:var(--reading)}
+.socratic-support h2{margin-top:0}
+.socratic-support .privacy-note{margin-bottom:0}
